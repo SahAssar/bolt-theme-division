@@ -1,0 +1,13 @@
+gfont: 
+    - "Montserrat:700"
+    - "Open+Sans:400,400italic,700,700italic"
+
+images:
+    - base/images/death-to-stock-above-1.jpg
+    - base/images/death-to-stock-above-2.jpg
+    - base/images/death-to-stock-above-5.jpg
+    - base/images/death-to-stock-above-10.jpg
+    - base/images/death-to-stock-above-6.jpg
+    - base/images/death-to-stock-above-7.jpg
+    - base/images/death-to-stock-above-8.jpg
+    - base/images/death-to-stock-above-9.jpg
