@@ -1,0 +1,201 @@
+body {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+}
+
+h1 {
+    font-size: 3.8125rem;
+    line-height: 4.6875rem;
+    margin-top: 3.125rem;
+    margin-bottom: 1.5625rem;
+}
+
+h2 {
+    font-size: 2.5625rem;
+    line-height: 3.125rem;
+    margin-top: 4.6875rem;
+    margin-bottom: 1.5625rem;
+}
+
+h3 {
+    font-size: 1.6875rem;
+    line-height: 3.125rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+body {
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    min-height: 10vh;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+header{
+    height: 10vh;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header, ul.menu{
+background: #1E262D;
+}
+
+.full{
+    height:90vh;
+}
+
+.padding.full h1{
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.scroll{
+    overflow:auto;
+}
+
+.inner{
+    padding: 2% 0;
+}
+
+.full-bg{
+    background-size: cover;
+    background-position: center;
+}
+
+.pagination{
+    list-style: none;
+    text-align: center;
+}
+
+.pagination li{
+    display: inline-block;
+}
+
+.startbox {
+    min-height:45vh;
+}
+
+/* If we only have one to show, show it fullscreen */
+.startbox:first-child:last-child{
+    min-height:90vh;
+}
+
+/* If we only have two to show, show them halfscreen */
+.startbox:first-child + :last-child{ 
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+article a, article a:hover, aside a, aside a:hover{
+    color: #222;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#fff, #fff), linear-gradient(#fff,#fff), linear-gradient(#222,#222);
+    background: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(#222,#222);
+    background-repeat: no-repeat,no-repeat,repeat-x;
+    text-shadow: .03em 0 #fff,-.03em 0 #fff,0 .03em #fff,0 -.03em #fff,.06em 0 #fff,-.06em 0 #fff,.09em 0 #fff,-.09em 0 #fff,.12em 0 #fff,-.12em 0 #fff,.15em 0 #fff,-.15em 0 #fff;
+    background-position: 0 87%,100% 87%,0 87%;
+}
+article a, article a:hover, aside a, aside a:hover{
+    background-size: .05em 1px,.05em 1px,1px 1px;
+}
+
+h1 a,h1 a:hover,h2 a,h2 a:hover,h3 a,h3 a:hover,h4 a,h4 a:hover,h5 a,h5 a:hover,h6 a,h6 a:hover{
+    background-size: .05em 3px,.05em 3px,3px 3px;
+}
+
+.sf-dump a,.sf-dump a:hover{
+    background:none;
+    text-shadow: none;
+ }
+
+.full-bg{
+    color: #fff;
+    text-align:center;
+}
+
+.startbox h2,.startbox h1 {
+    max-width:100%;
+    margin-top: 0;
+}
+
+.latestlist{
+    list-style: disc inside none;
+}
+
+.button{
+    display: inline-block;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 3px solid #fff;
+    color: inherit;
+    height: 43px;
+    margin-bottom: 1rem;
+    background:rgba(255,255,255,0);
+    -webkit-transition: background 0.3s ease-out, color 0.3s ease-out;
+            transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+
+.button:focus, .button:hover, button:focus, button:hover, input[type=submit]:focus, input[type=submit]:hover, input[type=reset]:focus, input[type=reset]:hover, input[type=button]:focus, input[type=button]:hover {
+    color: rgba(0,0,0,1);
+    background:rgba(255,255,255,1);
+    border: 3px solid #fff;
+}
+@media (max-width: 1000px) {
+.startbox h2,.startbox h1 {
+    font-size: 40px;
+}
+}
+
+@media (max-width: 800px) {
+.full-bg{
+    min-height:30vh;
+    max-height:45vh;
+}
+}
+.align>* {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    -webkit-flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+}
