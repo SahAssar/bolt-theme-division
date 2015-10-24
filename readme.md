@@ -8,3 +8,6 @@ Homepage:
 
 Listings:
 ![Listing](https://raw.githubusercontent.com/boltabandoned/bolt-theme-division/master/screenshots/listing.jpg "Listing")
+
+Record:
+![Listing](https://raw.githubusercontent.com/boltabandoned/bolt-theme-division/master/screenshots/record.jpg "Listing")
